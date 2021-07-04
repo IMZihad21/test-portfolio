@@ -1,7 +1,38 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/top-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 h1 {
     font-size: 50px;
+}
+
+section{
+    display: flex;
+}
+
+.primary-color {
+    color: purple;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(red, brown);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
